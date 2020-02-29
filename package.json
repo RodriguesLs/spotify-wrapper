@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "JS with tdd course",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js",
-    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
