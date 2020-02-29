@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "JS with tdd course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriguesLs/js-tdd-learn.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Rodrigues <fr.costa95@gmail.com> (https://rodriguesls.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodriguesLs/js-tdd-learn/issues"
+  },
+  "homepage": "https://github.com/RodriguesLs/js-tdd-learn#readme"
+}
