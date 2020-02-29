@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "JS with tdd course",
   "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "husky": {
     "hooks": {
       "pre-push": "npm run lint"
     }
-  },
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint src/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
