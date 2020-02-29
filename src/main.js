@@ -5,4 +5,4 @@ function sum() {
   return a * 2
 }
 
-sum();
+sum()
